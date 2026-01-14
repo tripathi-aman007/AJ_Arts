@@ -652,3 +652,56 @@ footer {
         font-size: 2.8rem;
     }
 }
+
+
+/* contact page css  */
+/* Contact Page */
+.contact-hero {
+    min-height: 100vh;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    position: relative;
+    background:
+        url("https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format&fit=crop&w=1600&q=80")
+        center / cover no-repeat;
+}
+
+.contact-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        rgba(247, 241, 232, 0.92),
+        rgba(241, 226, 210, 0.92)
+    );
+    backdrop-filter: blur(2px);
+}
+
+.contact-glass-card {
+    position: relative;
+    background: var(--glass-bg);
+    backdrop-filter: blur(18px);
+    border: 1px solid var(--glass-border);
+    border-radius: 28px;
+    padding: 2.8rem;
+    box-shadow: var(--shadow-luxury);
+}
+
+/* Form styling */
+.form-label {
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.form-control {
+    border-radius: 14px;
+    border: 1px solid rgba(228, 212, 179, 0.8);
+    background-color: rgba(255,255,255,0.8);
+    padding: 0.7rem 0.9rem;
+}
+
+.form-control:focus {
+    border-color: var(--gold);
+    box-shadow: none;
+}
